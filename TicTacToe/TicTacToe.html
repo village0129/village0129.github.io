@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>〇×ゲーム</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- タイトル -->
+    <div class="title">
+      <p>〇×ゲーム</p>
+    </div>
+
+    <!-- 番手の表示 -->
+    <div>
+      <p id = "displayCount">〇の番</p>
+    </div>
+
+    <!-- マス目（9*9） -->
+    <div>
+      <input type="button" class="block" id="b1"></input>
+      <input type="button" class="block" id="b2"></input>
+      <input type="button" class="block" id="b3"></input>
+    </div>
+    <div>
+      <input type="button" class="block" id="b4"></input>
+      <input type="button" class="block" id="b5"></input>
+      <input type="button" class="block" id="b6"></input>
+    </div>
+    <div>
+      <input type="button" class="block" id="b7"></input>
+      <input type="button" class="block" id="b8"></input>
+      <input type="button" class="block" id="b9"></input>
+    </div>
+
+    <!-- 勝敗表示 -->
+    <div>
+      <p id = "displayResult">〇の勝ち！</p>
+
+      <!-- リトライボタン -->
+      <input type="button" value="もう一度遊ぶ" id="reset"></input>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
