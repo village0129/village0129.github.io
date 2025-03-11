@@ -24,7 +24,7 @@ body {
 }
 
 .icon:hover {
-  color: limegreen;
+  color: #0077ff;
   transform: scale(1.2);
 }
 
